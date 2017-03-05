@@ -16,7 +16,7 @@ import javax.persistence.Table;
 @Table(name = "Project")
 @NamedQueries({ @NamedQuery(name = "Project.getAllProjects", query = "SELECT P FROM Project P") })
 public abstract class Project implements IProject {
-
+	// ВАся - молодец
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ID")
